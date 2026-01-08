@@ -64,7 +64,7 @@ export default function Header() {
               bgClip="text"
               letterSpacing="tight"
             >
-              Dheeraj Yadav
+              Virendra Yadav
             </Heading>
           </ChakraLink>
 
@@ -89,6 +89,16 @@ export default function Header() {
               display="inline-block"
             >
               Skills
+            </ChakraLink>
+            <ChakraLink
+              href="#experience"
+              fontWeight="medium"
+              color={textColor}
+              _hover={{ color: "primary.500", transform: "translateY(-2px)" }}
+              transition="all 0.2s"
+              display="inline-block"
+            >
+              Experience
             </ChakraLink>
             <ChakraLink
               href="#projects"
@@ -123,7 +133,7 @@ export default function Header() {
             <ThemeToggle />
             <Button
               as="a"
-              href="/my_cv.pdf"
+              href="/virendra_cv.pdf"
               target="_blank"
               colorScheme="primary"
               size="md"
@@ -222,6 +232,17 @@ export default function Header() {
                 Skills
               </ChakraLink>
               <ChakraLink
+                href="#experience"
+                fontWeight="medium"
+                px={2}
+                py={1}
+                rounded="md"
+                _hover={{ bg: useColorModeValue("gray.100", "gray.700") }}
+                onClick={onToggle}
+              >
+                Experience
+              </ChakraLink>
+              <ChakraLink
                 href="#projects"
                 fontWeight="medium"
                 px={2}
@@ -256,7 +277,7 @@ export default function Header() {
               </ChakraLink>
               <Button
                 as="a"
-                href="/resume.pdf"
+                href="/virendra_cv.pdf"
                 target="_blank"
                 size="sm"
                 width="full"

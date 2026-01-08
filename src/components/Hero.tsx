@@ -125,7 +125,7 @@ export default function Hero() {
                     rounded="full"
                     mb={4}
                   >
-                    Graduating 2026
+                    Backend Engineer
                   </Text>
                 </MotionBox>
 
@@ -138,10 +138,10 @@ export default function Hero() {
                     mb={4}
                   >
                     <Highlight
-                      query="Dheeraj Yadav."
+                      query="Virendra Yadav."
                       styles={{ color: headingColor, fontWeight: "800" }}
                     >
-                      Hi, I'm Dheeraj Yadav.
+                      Hi, I'm Virendra Yadav.
                     </Highlight>
                   </Heading>
                 </MotionBox>
@@ -154,9 +154,7 @@ export default function Hero() {
                     mb={6}
                     maxW="600px"
                   >
-                    Full Stack Developer with a passion for building exceptional
-                    digital experiences. I specialize in creating responsive web
-                    applications with modern technologies and clean code.
+                    Member of Technical Staff 2 at Cohesity. I specialize in building high-performance systems, distributed components, and internal developer tools.
                   </Text>
                 </MotionBox>
               </Box>
@@ -172,7 +170,7 @@ export default function Hero() {
                     _hover={{ bg: buttonHoverBg }}
                     _active={{ transform: "scale(0.98)" }}
                     as="a"
-                    href="/my_cv.pdf"
+                    href="/virendra_cv.pdf"
                     target="_blank"
                     fontWeight="medium"
                     px={6}
@@ -203,7 +201,7 @@ export default function Hero() {
                 <Stack direction="row" spacing={3}>
                   <Button
                     as="a"
-                    href="https://github.com/ydvdhrj"
+                    href="https://github.com/yvirendra"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="GitHub"
@@ -223,7 +221,7 @@ export default function Hero() {
 
                   <Button
                     as="a"
-                    href="https:linkedin.com/in/dheerajyadav0303"
+                    href="https://linkedin.com/in/virendra-yadav"
                     target="_blank"
                     rel="noopener noreferrer"
                     aria-label="LinkedIn"
@@ -265,8 +263,8 @@ export default function Hero() {
               zIndex="1"
             >
               <Image
-                src="/my photo.jpg"
-                alt="Dheeraj Yadav"
+                src="/my photo.jpeg"
+                alt="Virendra Yadav"
                 fill
                 style={{ objectFit: "cover" }}
                 priority

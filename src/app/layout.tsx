@@ -9,17 +9,17 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Dheeraj Yadav | Software Developer & Full-Stack Engineer",
+  title: "Virendra Yadav | Backend Engineer & Distributed Systems Expert",
   description:
-    "Portfolio of Dheeraj Yadav, a passionate software developer and aspiring full-stack engineer skilled in web development and machine learning.",
+    "Portfolio of Virendra Yadav, a Backend Engineer at Cohesity skilled in building high-performance systems and distributed components.",
   keywords: [
-    "software developer",
-    "full-stack engineer",
-    "web development",
-    "React",
-    "Next.js",
-    "machine learning",
-    "portfolio",
+    "Backend Engineer",
+    "Distributed Systems",
+    "Python",
+    "C++",
+    "Cohesity",
+    "System Design",
+    "developer portfolio",
   ],
 };
 

@@ -63,6 +63,7 @@ export default function Footer() {
   const navLinks = [
     { name: "About", href: "#about" },
     { name: "Skills", href: "#skills" },
+    { name: "Experience", href: "#experience" },
     { name: "Projects", href: "#projects" },
     { name: "Education", href: "#education" },
     { name: "Contact", href: "#contact" },
@@ -72,17 +73,17 @@ export default function Footer() {
     {
       name: "GitHub",
       icon: FaGithub,
-      href: "https://github.com/ydvdhrj",
+      href: "https://github.com/yvirendra",
     },
     {
       name: "LinkedIn",
       icon: FaLinkedin,
-      href: "https://linkedin.com/in/dheerajyadav0303",
+      href: "https://linkedin.com/in/virendra-yadav",
     },
     {
       name: "Email",
       icon: FaEnvelope,
-      href: "mailto:dheeraj.yadav0303@gmail.com",
+      href: "mailto:yvirendra575@gmail.com",
     },
   ];
 
@@ -116,11 +117,10 @@ export default function Footer() {
                   color={headingColor}
                   fontWeight="bold"
                 >
-                  Dheeraj Yadav
+                  Virendra Yadav
                 </Heading>
                 <Text color={textColor} fontSize="sm" maxW="xs">
-                  Full Stack Developer and Computer Science enthusiast focused
-                  on creating exceptional digital experiences.
+                  Backend Engineer focused on building high-performance systems and distributed components.
                 </Text>
                 <HStack spacing={4} mt={2}>
                   {socialLinks.map((social, index) => (
@@ -186,15 +186,15 @@ export default function Footer() {
                 </Heading>
                 <VStack align="flex-start" spacing={2}>
                   <Text color={textColor} fontSize="sm">
-                    Ujjain, Madhya Pradesh, India
+                    Bangalore, India
                   </Text>
                   <Link
-                    href="mailto:dheeraj.yadav0303@gmail.com"
+                    href="mailto:yvirendra575@gmail.com"
                     color={linkColor}
                     _hover={{ color: linkHoverColor }}
                     fontSize="sm"
                   >
-                    dheeraj.yadav0303@gmail.com
+                    yvirendra575@gmail.com
                   </Link>
                 </VStack>
               </VStack>
@@ -251,8 +251,8 @@ export default function Footer() {
               textAlign={{ base: "center", md: "left" }}
               gap={{ base: 4, md: 0 }}
             >
-            
-              
+
+
             </Flex>
           </MotionBox>
         </MotionBox>

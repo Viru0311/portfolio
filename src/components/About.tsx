@@ -250,38 +250,28 @@ export default function About() {
                       borderRadius: "full",
                     }}
                   >
-                    My Background
+                    Professional Summary
                   </Heading>
 
                   <Text color={textColor} fontSize="md" lineHeight="tall">
-                    I'm a Computer Science student with a passion for building
-                    innovative web applications. Currently pursuing my degree at
-                    LPU University, I combine academic knowledge with hands-on
-                    project experience to develop effective solutions.
+                    Backend Engineer with 2+ years of experience in building high-performance systems, distributed components, and internal developer tools.
                   </Text>
 
                   <Text color={textColor} fontSize="md" lineHeight="tall">
-                    My journey in technology began when I built my first website
-                    at 18. Since then, I've expanded my skills across the full
-                    stack, from creating responsive frontend interfaces to
-                    designing robust backend systems.
+                    Strong DSA, problem-solving, Python/C++, and LLD skills with experience in API design and large-scale backend workflows.
                   </Text>
 
                   <Text color={textColor} fontSize="md" lineHeight="tall">
-                    I'm particularly interested in building scalable web
-                    applications and exploring emerging technologies like AI and
-                    machine learning. I enjoy solving complex problems and
-                    continuously learning new skills to improve my development
-                    capabilities.
+                    Expertise in Backup & Replication Workflows, API Integration, Data Protection Automation, System Diagnostics, Distributed Systems, and Distributed File Systems.
                   </Text>
 
                   <Box as="ul" width="100%">
                     {[
-                      "B.Tech in Computer Science at LPU University (Expected 2026)",
-                      "Full-Stack Developer with 2+ years of project experience",
-                      "Open-source contributor and tech community member",
-                      "Passionate about building user-centered digital experiences",
-                      "Strong focus on clean, maintainable, and scalable code",
+                      "Backend Engineer at Cohesity (Jul 2023 - Present)",
+                      "B.Tech in Computer Science from NIT Trichy (CGPA: 8.23/10)",
+                      "Strong foundation in Distributed Systems and Backend Engineering",
+                      "Experience with Python, C++, Java, SQL, and Bash",
+                      "Proven track record of improving system efficiency and reliability",
                     ].map((item, index) => (
                       <Box as="li" mb={index === 4 ? 0 : 3} key={index}>
                         <HStack gap={2}>

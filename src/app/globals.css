@@ -90,3 +90,68 @@ html {
 .smooth-scroll {
   scroll-margin-top: 80px;
 }
+
+/* Spotlight effect animations */
+@keyframes spotlight-pulse {
+  0%, 100% {
+    opacity: 0.8;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1.05);
+  }
+}
+
+@keyframes ring-rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes spotlight-shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+/* Enhanced spotlight effects for modern look */
+.spotlight-container {
+  position: relative;
+  overflow: visible;
+}
+
+.spotlight-container::before {
+  content: '';
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 150%;
+  height: 150%;
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.1) 0%,
+    rgba(99, 102, 241, 0.05) 30%,
+    transparent 70%
+  );
+  transform: translate(-50%, -50%);
+  animation: spotlight-pulse 3s ease-in-out infinite;
+  pointer-events: none;
+  z-index: -1;
+}
+
+/* Dark mode spotlight adjustments */
+.dark .spotlight-container::before {
+  background: radial-gradient(
+    circle at center,
+    rgba(99, 102, 241, 0.2) 0%,
+    rgba(99, 102, 241, 0.1) 30%,
+    transparent 70%
+  );
+}

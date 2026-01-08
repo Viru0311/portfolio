@@ -205,12 +205,12 @@ export default function Contact() {
                         Email
                       </Heading>
                       <Link
-                        href="mailto:dheeraj.yadav0303@gmail.com"
+                        href="mailto:yvirendra575@gmail.com"
                         color={textColor}
                         _hover={{ color: primaryColor }}
                         transition="all 0.3s ease"
                       >
-                        dheeraj.yadav0303@gmail.com
+                        yvirendra575@gmail.com
                       </Link>
                     </Box>
                   </MotionBox>
@@ -238,7 +238,7 @@ export default function Contact() {
                         Location
                       </Heading>
                       <Text color={textColor}>
-                        Ujjain, Madhya Pradesh, India
+                        Bangalore, India
                       </Text>
                     </Box>
                   </MotionBox>
@@ -267,7 +267,7 @@ export default function Contact() {
                       </Heading>
                       <HStack spacing={4}>
                         <Link
-                          href="https://github.com/ydvdhrj"
+                          href="https://github.com/yvirendra"
                           target="_blank"
                           rel="noopener noreferrer"
                           color={textColor}
@@ -277,7 +277,7 @@ export default function Contact() {
                           <Icon as={FaGithub} boxSize={6} />
                         </Link>
                         <Link
-                          href="https://linkedin.com/in/dheerajyadav0303"
+                          href="https://linkedin.com/in/virendra-yadav"
                           target="_blank"
                           rel="noopener noreferrer"
                           color={textColor}

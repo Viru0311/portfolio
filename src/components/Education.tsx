@@ -60,34 +60,27 @@ export default function Education() {
 
   const education = [
     {
-      institution: "Lovely Professional University",
-      degree: "B.Tech in Computer Science Engineering",
-      duration: "2021 - 2026 (Expected)",
+      institution: "National Institute of Technology",
+      degree: "B.Tech in Computer Science and Engineering",
+      duration: "May 2023",
       description:
-        "Pursuing a bachelor's degree in Computer Science Engineering with a focus on software development, data structures and algorithms, and machine learning.",
+        "Trichy, Tamilnadu. CGPA: 8.23/10",
     },
-    // {
-    //   institution: "Jawahar Navodaya Vidyalaya, Ujjain",
-    //   degree: "Higher Secondary Education",
-    //   duration: "Completed",
-    //   description:
-    //     "Completed higher secondary education with focus on science and mathematics.",
-    // },
   ];
 
   const achievements = [
-    "Two-time State Badminton Player 🏸",
-    "Consistently solving problems on LeetCode and participating in coding contests",
-    "Developed multiple full-stack and ML-based projects",
-    "Selected for internships (e.g., JIO, Salesforce - Applied)",
+    "Treasurer, Maximus'23 | Mathematics Club - NIT Trichy",
+    "Head of Events, Vortex'23 | National Level Technical Symposium",
+    "Managed budgeting, audit reporting, and club finances",
+    "Conducted coding and mathematics competitions (Math Buzz, Codemax)",
+    "Mentored junior students in mathematics & programming",
   ];
 
   const hobbies = [
-    "Playing Badminton",
-    "Solving Puzzles",
     "Competitive Programming",
-    "Exploring AI/ML",
-    "Working on Side Projects",
+    "System Design",
+    "Open Source",
+    "Tech Blogging",
   ];
 
   return (
@@ -141,7 +134,7 @@ export default function Education() {
               bgClip="text"
               fontWeight="extrabold"
             >
-              Education & Achievements
+              Education & Leadership
             </Heading>
             <Text
               fontSize="xl"
@@ -150,8 +143,7 @@ export default function Education() {
               color={textColor}
               lineHeight="tall"
             >
-              My academic journey and notable achievements that shaped my skills
-              and knowledge.
+              My academic background and leadership roles that have shaped my professional journey.
             </Text>
           </MotionBox>
 

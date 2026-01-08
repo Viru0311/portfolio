@@ -83,11 +83,37 @@ export default function Projects() {
 
   const projects = [
     {
-      title: "House Price Prediction (California)",
+      title: "RAG-BASED CHATBOT",
       description:
-        "Built a machine learning model to predict median house prices in California using a dataset of over 20,000 districts. Implemented and compared Linear Regression, Random Forest, and XGBoost to identify the best-performing algorithm.",      tags: ["Python", "Scikit-learn", "Machine Learning", "Data Analysis"],
-      image: "/houseprice.png",
-      github: "https://github.com/ydvdhrj/",
+        "Developed a context-aware RAG-based chatbot using LangChain.js and Google Gemini AI for intelligent document-driven conversations. Implemented vector-based document search and retrieval using Supabase Vector Store.",
+      tags: ["Next.js", "TypeScript", "Supabase", "LangChain", "Gemini AI"],
+      image: "/slide.jpeg", // Using a placeholder for now as per instructions
+      github: "https://github.com/yvirendra",
+      live: "https://chatbot-ten-drab-28.vercel.app/",
+      icon: (props: IconProps) => (
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          width="24"
+          height="24"
+          viewBox="0 0 24 24"
+          fill="none"
+          stroke="currentColor"
+          strokeWidth="2"
+          strokeLinecap="round"
+          strokeLinejoin="round"
+          {...props}
+        >
+          <path d="M21 15a2 2 0 0 1-2 2H7l-4 4V5a2 2 0 0 1 2-2h14a2 2 0 0 1 2 2z"></path>
+        </svg>
+      ),
+    },
+    {
+      title: "Inventory & Billing Management System",
+      description:
+        "Developing a SaaS-based Inventory & Billing Management System using FastAPI and Next.js to automate business workflows for small enterprises.",
+      tags: ["FastAPI", "Next.js", "SaaS", "Automation"],
+      image: "/splitwise.png", // Placeholder
+      github: "https://github.com/yvirendra",
       // live: "",
       icon: (props: IconProps) => (
         <svg
@@ -102,70 +128,20 @@ export default function Projects() {
           strokeLinejoin="round"
           {...props}
         >
-          <path d="m3 9 9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"></path>
-          <polyline points="9 22 9 12 15 12 15 22"></polyline>
+          <rect x="3" y="3" width="7" height="7"></rect>
+          <rect x="14" y="3" width="7" height="7"></rect>
+          <rect x="14" y="14" width="7" height="7"></rect>
+          <rect x="3" y="14" width="7" height="7"></rect>
         </svg>
       ),
     },
     {
-      title: "Splitwise Expense Tracking App",
+      title: "PREP - INTERVIEW",
       description:
-        "A full-stack web app for splitting and managing expenses among friends or groups. Features include group creation and management, real-time expense tracking, and authentication with Flask-Login.",      tags: ["Flask", "PostgreSQL", "Neon", "Bootstrap", "SQLAlchemy"],
-      image: "/splitwise.png",
-      github: "https://github.com/ydvdhrj/splitwise",
-      live: "https://splitwise-iota.vercel.app/",
-      icon: (props: IconProps) => (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          {...props}
-        >
-          <path d="M12 2v20"></path>
-          <path d="M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"></path>
-        </svg>
-      ),
-    },
-    {
-      title: "Slide - Instagram DM Automation SaaS",
-      description:
-        "A SaaS project that helps influencers auto-respond to Instagram DMs using custom keywords. It includes an AI bot to handle conversations based on chat history.",      tags: ["TypeScript", "Prisma", "Neon", "SaaS"],
-      image: "/slide.jpeg",
-      github: "https://github.com/ydvdhrj/Slide",
-      // live: "https://slide-dm.vercel.app",
-      icon: (props: IconProps) => (
-        <svg
-          xmlns="http://www.w3.org/2000/svg"
-          width="24"
-          height="24"
-          viewBox="0 0 24 24"
-          fill="none"
-          stroke="currentColor"
-          strokeWidth="2"
-          strokeLinecap="round"
-          strokeLinejoin="round"
-          {...props}
-        >
-          <path d="M14.5 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V7.5L14.5 2z"></path>
-          <polyline points="14 2 14 8 20 8"></polyline>
-          <line x1="16" x2="8" y1="13" y2="13"></line>
-          <line x1="16" x2="8" y1="17" y2="17"></line>
-          <line x1="10" x2="8" y1="9" y2="9"></line>
-        </svg>
-      ),
-    },
-    {
-      title: "EduFocus (Android)",
-      description:
-        "A Kotlin-based mobile app for setting reminders with customizable alarms and notifications. Built for quick daily task reminders and improved time management.",      tags: ["Kotlin", "Android", "Mobile Development"],
-      image: "/EduFocus.png",
-      github: "https://github.com/ydvdhrj/EduFocus",
+        "Developed a website for sharing interview experiences and questions. Implemented user authentication using JSON Web Tokens. Built using Node.js, Express.js, MongoDB, and EJS Template.",
+      tags: ["Node.js", "Express.js", "MongoDB", "EJS", "JWT"],
+      image: "/EduFocus.png", // Placeholder
+      github: "https://github.com/yvirendra",
       live: "",
       icon: (props: IconProps) => (
         <svg
@@ -180,8 +156,8 @@ export default function Projects() {
           strokeLinejoin="round"
           {...props}
         >
-          <circle cx="12" cy="12" r="10"></circle>
-          <polyline points="12 6 12 12 16 14"></polyline>
+          <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+          <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
         </svg>
       ),
     },
